@@ -1,0 +1,14 @@
+d:\Private\TestEssence\FluentGherkinCSharp\FluentGherkinCSharp\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+d:\Private\TestEssence\FluentGherkinCSharp\FluentGherkinCSharp\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+d:\Private\TestEssence\FluentGherkinCSharp\FluentGherkinCSharp\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+d:\Private\TestEssence\FluentGherkinCSharp\FluentGherkinCSharp\bin\Debug\netcoreapp2.1\FluentGherkinCSharp.deps.json
+d:\Private\TestEssence\FluentGherkinCSharp\FluentGherkinCSharp\bin\Debug\netcoreapp2.1\FluentGherkinCSharp.runtimeconfig.json
+d:\Private\TestEssence\FluentGherkinCSharp\FluentGherkinCSharp\bin\Debug\netcoreapp2.1\FluentGherkinCSharp.runtimeconfig.dev.json
+d:\Private\TestEssence\FluentGherkinCSharp\FluentGherkinCSharp\bin\Debug\netcoreapp2.1\FluentGherkinCSharp.dll
+d:\Private\TestEssence\FluentGherkinCSharp\FluentGherkinCSharp\bin\Debug\netcoreapp2.1\FluentGherkinCSharp.pdb
+d:\Private\TestEssence\FluentGherkinCSharp\FluentGherkinCSharp\obj\Debug\netcoreapp2.1\FluentGherkinCSharp.csprojAssemblyReference.cache
+d:\Private\TestEssence\FluentGherkinCSharp\FluentGherkinCSharp\obj\Debug\netcoreapp2.1\FluentGherkinCSharp.csproj.CoreCompileInputs.cache
+d:\Private\TestEssence\FluentGherkinCSharp\FluentGherkinCSharp\obj\Debug\netcoreapp2.1\FluentGherkinCSharp.AssemblyInfoInputs.cache
+d:\Private\TestEssence\FluentGherkinCSharp\FluentGherkinCSharp\obj\Debug\netcoreapp2.1\FluentGherkinCSharp.AssemblyInfo.cs
+d:\Private\TestEssence\FluentGherkinCSharp\FluentGherkinCSharp\obj\Debug\netcoreapp2.1\FluentGherkinCSharp.dll
+d:\Private\TestEssence\FluentGherkinCSharp\FluentGherkinCSharp\obj\Debug\netcoreapp2.1\FluentGherkinCSharp.pdb
