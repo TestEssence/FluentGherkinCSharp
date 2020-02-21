@@ -64,13 +64,23 @@ using FluentGherkinCSharp;
                 .Then("the result is 27", stepResult => stepResult == 27.000); //result is Double
         }
 
-        [Fact]
-        public void TestWithLambdaNoText()
-        {
-            Gherkin
-                .Given(3)
-                .When( givenValue => givenValue * 3)
-                .And( whenResult => whenResult * 3.000)
-                .Then( stepResult => stepResult == 27.000);
-        }
+    [Fact]
+    public void TestWithLambdaNoText()
+    {
+        Gherkin
+            .Given(3)
+            .When(givenValue => givenValue * 3)
+            .And(whenResult => whenResult * 3.000)
+            .Then(stepResult => stepResult == 27.000);
     }
+
+//The magic of fluency in details
+[Fact]
+    public void TestBehindTheMagicOfFluency()
+    {
+        GherkinStep<int> givenStep = Gherkin.Given("We have 3", 3);
+        GherkinStep<int> whenStep = givenStep.When("we multiply it by 3", value => value * 3);
+        GherkinStep<double> andStep = whenStep.And("we multiply the result by 3", value => value * 3.000);
+        andStep.Then("the result is 27", stepResult => stepResult == 27.000); //result is Double
+    }
+}
