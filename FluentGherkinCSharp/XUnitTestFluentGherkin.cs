@@ -81,6 +81,11 @@ using FluentGherkinCSharp;
         GherkinStep<int> givenStep = Gherkin.Given("We have 3", 3);
         GherkinStep<int> whenStep = givenStep.When("we multiply it by 3", value => value * 3);
         GherkinStep<double> andStep = whenStep.And("we multiply the result by 3", value => value * 3.000);
-        andStep.Then("the result is 27", stepResult => stepResult == 27.000); //result is Double
+        try {
+            andStep.Then("the result is 27", stepResult => stepResult == 27.000); //result is Double
+        }
+        catch (Exception ex) {
+            throw new Exception("Then condition failed:"+ex.Message);
+        }
     }
 }
