@@ -1,6 +1,6 @@
 # Fluent Gherkin: a functional approach for Given When Then
 
-C# implementation of the functional [approach](https://dzone.com/articles/a-new-approach-to-given-when-then) for test code propoed by [Gabriel Deliu](https://dzone.com/users/1031037/gabriel.deliu.html).
+C# implementation of the functional [approach](https://dzone.com/articles/a-new-approach-to-given-when-then) for test code proposed by [Gabriel Deliu](https://dzone.com/users/1031037/gabriel.deliu.html).
 
 
 Test Code Example (xUnit):
