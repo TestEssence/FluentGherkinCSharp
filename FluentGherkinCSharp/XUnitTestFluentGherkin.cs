@@ -65,7 +65,7 @@ using FluentGherkinCSharp;
         }
 
     [Fact]
-    public void TestWithLambdaNoText()
+    public void TestFluentGherkinMinimalistic()
     {
         Gherkin
             .Given(3)
